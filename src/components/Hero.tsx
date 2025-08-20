@@ -22,13 +22,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 pt-32 pb-20">
         {/* Logo Section */}
         <div className="flex justify-center mb-12">
-          <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-6 shadow-soft">
-            <img
-              src="/lovable-uploads/cec2af45-ea99-454a-b50b-cd4de640bd6c.png" 
-              alt="Logo de Manicura Pro"
-              className="h-16 w-auto object-contain"
-            />
-          </div>
+          <img
+            src="/lovable-uploads/cec2af45-ea99-454a-b50b-cd4de640bd6c.png" 
+            alt="Logo de Manicura Pro"
+            className="h-32 w-auto object-contain"
+          />
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
