@@ -20,6 +20,17 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 pt-32 pb-20">
+        {/* Logo Section */}
+        <div className="flex justify-center mb-12">
+          <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-6 shadow-soft">
+            <img
+              src="/logo.png" 
+              alt="Logo de Manicura Pro"
+              className="h-16 w-auto object-contain"
+            />
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
