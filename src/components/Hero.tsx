@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="flex justify-center mb-12">
           <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-6 shadow-soft">
             <img
-              src="/logo.png" 
+              src="/lovable-uploads/cec2af45-ea99-454a-b50b-cd4de640bd6c.png" 
               alt="Logo de Manicura Pro"
               className="h-16 w-auto object-contain"
             />
